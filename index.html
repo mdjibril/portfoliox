@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jibril Dauda Muhammad - Portfolio</title>
+
+	<!-- online -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+	<!-- offline -->
+	<!-- <link rel="stylesheet" href="icon/icofont.min.css"> -->
+
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&family=Quintessential&display=swap');
+
+		* {
+		    margin: 0;
+		    padding: 0;
+		    box-sizing: border-box;
+			font-family: 'Quintessential', cursive;
+		}
+
+
+		.navigation {
+			position: fixed;
+			/*background: #4c0c5c;*/
+			background: #4C0C47;
+			width: 100%;
+			height: 60px;
+			display: flex;
+			justify-content: center; 
+			align-items: center;
+		}
+
+		.navigation div a {
+			color: #ffffff;
+			font-size: 20px;
+			text-decoration: none;
+		}
+
+		.navigation div {
+			margin: 0 15px;
+			color: white;
+		}
+
+		.hero {
+			background: #4c0c5c;
+			height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+
+		.hero p {
+			color: #ffffff;
+		}
+
+		.hero img {
+			border-radius: 50%;
+			width: 250px;
+			height: 250px;
+			margin-bottom: 10px;
+		}
+
+		.hero p {
+			font-size: 20px;
+			text-align: center;
+		}
+
+		.container {
+			margin: 1.5em 4em;
+		}
+
+		.container h1, .container p {
+			text-align: center;
+
+		}
+
+		.skills {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			text-align: center;
+		}
+
+		.skill {
+			width: 200px;
+			text-align: center;
+			margin: 10px;
+			padding: 10px 20px;
+			background: #f1f1f1;
+			border-radius: 10px;
+		}
+
+		.skill:hover {
+			background: #4c0c5c;
+			color: #ffffff;
+		}
+
+		.projects {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			flex-wrap: wrap;
+		}
+
+		.project {
+			width: 45%;
+			text-align: center;
+			margin: 15px;
+		}
+
+		.project a:hover {
+			border-bottom: 2.5px #4c0c5c solid;
+			border-bottom-width: thick;
+		}
+
+		.project a {
+			text-decoration: none;
+			color: black;
+			font-size: 18px;
+		}
+
+		.text {
+			font-size: 18px;
+		}
+
+		.footer {
+			width: 100%;
+		    display: flex;
+		    justify-content: center;
+		    align-items: center;
+		    flex-direction: column;
+		    background: #4c0c5c;
+		    margin-top: 15px;
+		    padding: 15px
+		}
+
+		.footer div {
+			width: 50%;
+		}
+
+		input[type=text], input[type=email], textarea, input[type=button] {
+		  width: 100%;
+		  padding: 12px 20px;
+		  margin: 8px 0;
+		  display: inline-block;
+		  border: 1px solid #ccc;
+		  border-radius: 4px;
+		  box-sizing: border-box;
+		}
+
+		input[type=button]:hover {
+			background: #4c0c5c;
+			color: #ffffff;
+		}
+
+		.social {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-top: 16px;
+		}
+
+		.social li{
+			list-style-type: none;
+		}
+
+		.social a{
+			text-decoration: none;
+			color: white;
+			margin: 5px 15px;
+		}
+
+		.social i {
+			font-size: 20px;
+		}
+
+		@media screen and (max-width: 480px) {
+			.skills {
+				flex-direction: column;
+			}
+		}
+
+ 	</style>
+</head>
+<body>
+	<div class="navigation">
+		<div><a href="index.html">JIBRIL</a></div>
+		<div>||</div>
+		<div><a href="#who">WHO</a></div>
+	</div>
+
+	<div>
+		<div class="hero">
+			<img src="profile.png"  alt="my profile pic">
+			<p>Assalamu alaikum, I'm Jibril. A Fullstack Developer</p>
+			<ul class="social">
+				<!-- <li><a href="https://facebook.com"><i class="icofont-facebook"></i></a></li> -->
+				<li><a href="https://facebook.com"><i class="bi bi-facebook"></i></a></li>
+				<li><a href="https://instagram.com"><i class="bi bi-instagram"></i></a></li>
+				<li><a href="https://twitter.com"><i class="bi bi-twitter"></i></a></li>
+			</ul>
+		</div>
+
+		<div class="container">
+			<h1>WHO</h1>
+			<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+
+		<div class="container">
+			<h1>SKILLS</h1>
+			<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+			<div class="skills">
+				<div class="skill"><h2>HTML</h2></div>
+				<div class="skill"><h2>CSS</h2></div>
+				<div class="skill"><h2>JavaScript</h2></div>
+			</div>
+		</div>
+
+		<div class="container">
+			<h1>PROJECTS</h1>
+			<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+			<div class="projects">
+				<div class="project"><a href="#">Project 1</a></div>
+				<div class="project"><a href="#">Project 2</a></div>
+				<div class="project"><a href="#">Project 3</a></div>
+				<div class="project"><a href="#">Project 4</a></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<h1 style="text-align: center; color: white;">CONTACT ME</h1>
+		<form name="contact" method="POST" data-netlify="true">
+			<input type="text" name="fullname" placeholder="Enter Fullname">
+			<input type="email" name="email" placeholder="Enter Email">
+			<textarea name="message"></textarea>
+			<!-- <input type="button" name="" value="Submit"> -->
+			<button type="submit">Submit</button>
+		</form>
+
+
+		<p style="color:whit e; margin-top: 10px;">Crafted with <i class="bi bi-heart"></i> by Md Jibril</p>
+	</div>
+</body>
+</html>
